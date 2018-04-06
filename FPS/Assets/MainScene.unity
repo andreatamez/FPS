@@ -933,6 +933,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!20 &1693596027 stripped
+Camera:
+  m_PrefabParentObject: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 2}
+  m_PrefabInternal: {fileID: 976178534}
 --- !u!1001 &1838556490
 Prefab:
   m_ObjectHideFlags: 0
@@ -1155,6 +1160,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5297154ecea7f3d45b55084f0006a921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fpsCam: {fileID: 0}
+  fpsCam: {fileID: 1693596027}
   damage: 10
   range: 100

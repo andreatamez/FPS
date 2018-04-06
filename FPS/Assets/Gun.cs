@@ -20,8 +20,11 @@ public class Gun : MonoBehaviour {
 
 	void Shoot(){
 		RaycastHit hit;
+
+		//regresa true si le diste hit a algo false si no
 		if (Physics.Raycast (fpsCam.transform.position, fpsCam.transform.forward, out hit, range)) {
 
+			//te da el nombre de lo que golpeaste
 			Debug.Log (hit.transform.name);
 		}
 	}
