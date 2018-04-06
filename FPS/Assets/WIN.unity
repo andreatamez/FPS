@@ -145,7 +145,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 0f5a45ce6d9463d43a322e1fcce81eea, type: 2}
+  - {fileID: 2100000, guid: e87196bc9afe1ff448474d3629017f2b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -600,7 +600,7 @@ SpriteRenderer:
   m_Size: {x: 16.6, y: 14.15}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!1 &1533130009
 GameObject:
@@ -676,6 +676,7 @@ GameObject:
   - component: {fileID: 1643655105}
   - component: {fileID: 1643655104}
   - component: {fileID: 1643655103}
+  - component: {fileID: 1643655108}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -770,6 +771,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1643655108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1643655102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28984c5617009634bbdc293e37f31782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1861343788
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,7 +858,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1643655103}
+      - m_Target: {fileID: 1643655108}
         m_MethodName: BtnInicio
         m_Mode: 1
         m_Arguments:

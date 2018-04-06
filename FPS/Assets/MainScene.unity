@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 104141527}
   - component: {fileID: 104141526}
   m_Layer: 0
-  m_Name: Capsule002
+  m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 451821996}
   - component: {fileID: 451821995}
   m_Layer: 0
-  m_Name: Capsule001
+  m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,7 +358,6 @@ GameObject:
   - component: {fileID: 604818886}
   - component: {fileID: 604818885}
   - component: {fileID: 604818884}
-  - component: {fileID: 604818883}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -366,13 +365,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &604818883
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 604818882}
-  m_Enabled: 1
 --- !u!124 &604818884
 Behaviour:
   m_ObjectHideFlags: 0
@@ -603,7 +595,7 @@ GameObject:
   - component: {fileID: 799435839}
   - component: {fileID: 799435838}
   m_Layer: 0
-  m_Name: Capsule005
+  m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -834,6 +826,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 3.2268276
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_fire
+      value: 
+      objectReference: {fileID: 8300000, guid: 9e2fbbeb68b9ba44db59afab1369f98a, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
@@ -849,7 +845,7 @@ GameObject:
   - component: {fileID: 1046461165}
   - component: {fileID: 1046461164}
   m_Layer: 0
-  m_Name: Capsule006
+  m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1003,7 +999,7 @@ GameObject:
   - component: {fileID: 1174298725}
   - component: {fileID: 1174298724}
   m_Layer: 0
-  m_Name: Capsule003
+  m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1296,7 +1292,7 @@ GameObject:
   - component: {fileID: 1872532430}
   - component: {fileID: 1872532429}
   m_Layer: 0
-  m_Name: Capsule004
+  m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
