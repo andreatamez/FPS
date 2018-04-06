@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/fabio/Dropbox/Videojuegos 5to Semestre/Challenge1_A01176494/Assets/Inicio.unity
+- path: Assets/MainScene.unity
   isLoaded: 1
   isActive: 1

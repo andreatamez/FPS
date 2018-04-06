@@ -332,7 +332,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1246281055}
+      - m_Target: {fileID: 1246281056}
         m_MethodName: BtnInicio
         m_Mode: 1
         m_Arguments:
@@ -445,8 +445,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Instrucciones: Llega al touchdown en menos de 15 segundos esquivando los
-    cubos, si no llegar pierdes, este es tu momento de ganar el SUPER BOWL.'
+  m_Text: 'Instrucciones: Dispara a los objetos y te daran nuevas informaciones de
+    las leyes de Newton, encuentra todas y gana!'
 --- !u!222 &1004922549
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -465,6 +465,7 @@ GameObject:
   - component: {fileID: 1246281052}
   - component: {fileID: 1246281051}
   - component: {fileID: 1246281055}
+  - component: {fileID: 1246281056}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -558,6 +559,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30d425b76905b8c4d9b9f5289ccb8ba2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1246281056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1246281050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28984c5617009634bbdc293e37f31782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1662631453
