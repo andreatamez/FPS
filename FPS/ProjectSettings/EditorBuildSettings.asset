@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/WIN.unity
     guid: 543177514d55d124c9c8744585167a87
+  - enabled: 1
+    path: Assets/LOSE.unity
+    guid: ffe56b6fe9cf715469636c30e68777bb

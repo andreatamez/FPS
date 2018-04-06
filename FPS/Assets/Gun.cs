@@ -10,6 +10,21 @@ public class Gun : MonoBehaviour {
 	public float range = 100f;
 	private int capsulesDestroyed = 0;
 
+	//mi void Start para el tiempo
+	private int tiempo;
+	void Start () { 
+		// txt.text = "Tiempo: " + iCube.ToString (); 
+		InvokeRepeating("OutputTime", 1f, 1f);
+		tiempo = 60;
+	}
+
+	void OutputTime() {
+		tiempo--;
+		// txt.text = "Tiempo: " + iCube.ToString ();
+		if (tiempo == 0) {
+			Application.LoadLevel ("LOSE");
+		}
+	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -32,6 +47,8 @@ public class Gun : MonoBehaviour {
 
 			//te da el nombre de lo que golpeaste
 			Debug.Log (hit.transform.name);
+
+			//Si golpea una capsula suma cuantas golpeaste y asi puedes ganar 
 			if (hit.transform.name.ToString () == "Capsule") {
 				capsulesDestroyed++;
 				Destroy (hit.transform.gameObject);
